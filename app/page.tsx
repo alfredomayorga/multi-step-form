@@ -1,5 +1,6 @@
 import { Ubuntu } from '@next/font/google'
 import { Button, Input } from '../components/common'
+import PlansComponent from '../components/ui/plans-component'
 import StepsComponent from '../components/ui/steps-component'
 
 const ubuntu = Ubuntu({
@@ -37,6 +38,7 @@ export default function Home() {
         /> 
       </div>
       <StepsComponent />
+      <PlansComponent />
     </div>
   )
 }

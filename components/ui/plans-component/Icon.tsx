@@ -11,7 +11,7 @@ export function Icon({ color, icon }: IconProps) {
       width={40}
       height={40}
       alt="Plan Icon"
-      className={`bg-{color}`}
+      className="mx-4"
     />
   )
 }
