@@ -5,7 +5,7 @@ interface InputProps {
 }
 export function Input({ type, placeholder, labelText }: InputProps) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col my-2">
       <label htmlFor="input">{labelText}</label>
       <input
         name="input"
