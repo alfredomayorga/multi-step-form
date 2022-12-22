@@ -19,4 +19,16 @@ export function Button({ onClick, type }: ButtonProps) {
         Next Step
       </button>
     )
+  return (
+    <button
+      className="
+         w-[97px]
+         h-[40px]
+         text-center
+         leading-[40px]
+        "
+    >
+      Go Back
+    </button>
+  )
 }
