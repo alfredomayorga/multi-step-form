@@ -1,5 +1,6 @@
 import { Ubuntu } from '@next/font/google'
 import { Button, Input } from '../components/common'
+import StepsComponent from '../components/ui/steps-component'
 
 const ubuntu = Ubuntu({
   weight: ['400', '700'],
@@ -35,6 +36,7 @@ export default function Home() {
           labelText='Phone Number'
         /> 
       </div>
+      <StepsComponent />
     </div>
   )
 }

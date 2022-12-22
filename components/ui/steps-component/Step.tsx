@@ -9,11 +9,7 @@ export function Step({ step, active }: StepProps) {
         w-[33px]
         h-[33px]
         rounded-full
-        ${
-          active
-            ? 'bg-sky-blue text-demin'
-            : 'border border-white text-white'
-        }
+        ${active ? 'bg-sky-blue text-demin' : 'border border-white text-white'}
      `}
     >
       {step}
