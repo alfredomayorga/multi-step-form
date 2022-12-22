@@ -1,4 +1,5 @@
 import { Ubuntu } from '@next/font/google'
+import { Button } from '../components/ui'
 
 const ubuntu = Ubuntu({
   weight: ['400', '700'],
@@ -8,6 +9,11 @@ const ubuntu = Ubuntu({
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="flex">
+      <Button
+        type="primary"
+        onClick={() => {}}
+      />
+    </div>
   )
 }
