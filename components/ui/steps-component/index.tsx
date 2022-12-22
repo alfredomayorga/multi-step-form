@@ -7,7 +7,7 @@ function StepsComponent() {
     { number: 4, active: false },
   ]
   return (
-    <div className="flex flex-row min-w-[180px] justify-between">
+    <div className="flex flex-row max-w-[180px] justify-between">
       {steps.map((step) => {
         return (
           <Step
