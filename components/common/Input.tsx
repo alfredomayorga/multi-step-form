@@ -17,6 +17,7 @@ export function Input({ type, placeholder, labelText }: InputProps) {
           rounded-md
           h-[40px]
           px-4
+          focus:outline-purple
         "
       />
     </div>

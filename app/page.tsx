@@ -1,5 +1,5 @@
 import { Ubuntu } from '@next/font/google'
-import { Button, Input } from '../components/ui'
+import { Button, Input } from '../components/common'
 
 const ubuntu = Ubuntu({
   weight: ['400', '700'],
