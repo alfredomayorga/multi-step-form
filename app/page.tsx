@@ -8,7 +8,7 @@ const ubuntu = Ubuntu({
 
 export default function Home() {
   return (
-    <div className={ubuntu.className + "flex"}>
+    <div className={ubuntu.className + 'flex'}>
       <MonthlyYearlyPicker />
     </div>
   )
