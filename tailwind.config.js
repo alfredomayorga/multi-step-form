@@ -25,7 +25,7 @@ module.exports = {
       orange: '#FFAF7E',
       pink: '#F9818E',
       'sky-blue': '#BEE2FD',
-      'white-two': '#F8F9FF',
+      'very-light-grey': '#F8F9FF',
       white: '#FFFFFF',
     },
     extend: {
