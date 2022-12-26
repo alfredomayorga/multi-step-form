@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { SwitchComponent } from '../../common'
 
 function MonthlyYearlyPicker() {
-  const [checked, setChecked] = useState<boolean>(true)
+  const [checked, setChecked] = useState<boolean>(false)
   return (
     <div
       className="
