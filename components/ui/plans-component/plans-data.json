@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Arcade",
+      "price": "$9/month",
+      "icon": "/images/icon-arcade.svg",
+      "color": "orange"
+    },
+    {
+      "id": 2,
+      "name": "Advanced",
+      "price": "$12/month",
+      "icon": "/images/icon-advanced.svg",
+      "color": "pink"
+    },
+    {
+      "id": 3,
+      "name": "Pro",
+      "price": "$15/month",
+      "icon": "/images/icon-pro.svg",
+      "color": "purple"
+    }
+  ]
+}

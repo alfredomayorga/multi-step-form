@@ -1,5 +1,5 @@
 import { Ubuntu } from '@next/font/google'
-
+import MonthlyYearlyPicker from '../components/ui/monthty-yearly-picker'
 const ubuntu = Ubuntu({
   weight: ['400', '700'],
   subsets: ['latin'],
@@ -8,6 +8,8 @@ const ubuntu = Ubuntu({
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className={ubuntu.className + "flex"}>
+      <MonthlyYearlyPicker />
+    </div>
   )
 }
