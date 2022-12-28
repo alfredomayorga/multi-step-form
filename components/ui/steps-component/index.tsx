@@ -7,7 +7,16 @@ function StepsComponent() {
     { number: 4, active: false },
   ]
   return (
-    <div className="flex flex-row max-w-[180px] justify-between">
+    <div className="
+        absolute
+        flex 
+        flex-row 
+        min-w-[180px]
+        mx-auto
+        justify-between 
+        z-50
+      "
+    >
       {steps.map((step) => {
         return (
           <Step
