@@ -3,5 +3,5 @@ interface CardTextProps {
 }
 
 export function CardText({ children }: CardTextProps) {
-  return <p className="text-gray text-body-lg">{children}</p>
+  return <p className="text-gray text-body-lg mb-4">{children}</p>
 }

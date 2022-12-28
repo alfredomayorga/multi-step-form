@@ -6,14 +6,20 @@ interface InputProps {
 export function Input({ type, placeholder, labelText }: InputProps) {
   return (
     <div className="flex flex-col my-2">
-      <label htmlFor="input">{labelText}</label>
+      <label
+        className="text-demin text-[12px] mb-1"
+        htmlFor="input"
+      >
+        {labelText}
+      </label>
       <input
         name="input"
         type={type}
         placeholder={placeholder}
         className="
           border
-          border-light-grey
+          border-border-color
+          placeholder:text-gray
           rounded-md
           h-[40px]
           px-4
