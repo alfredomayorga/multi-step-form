@@ -1,5 +1,6 @@
 import { Ubuntu } from '@next/font/google'
-import MonthlyYearlyPicker from '../components/ui/monthty-yearly-picker'
+import { BackgroundImage } from '../components/common/BackgroundImage'
+import PersonalInfo from '../views/PersonalInfo'
 const ubuntu = Ubuntu({
   weight: ['400', '700'],
   subsets: ['latin'],
@@ -9,7 +10,8 @@ const ubuntu = Ubuntu({
 export default function Home() {
   return (
     <div className={ubuntu.className + 'flex'}>
-      <MonthlyYearlyPicker />
+      <BackgroundImage />
+      <PersonalInfo />
     </div>
   )
 }
