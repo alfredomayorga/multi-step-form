@@ -18,7 +18,7 @@ function FormContextProvider({ children }: IProps) {
   const [totalAmount, setTotalAmount] = useState<number>(0)
   const [planSelected, setPlanSelected] = useState<Plan>({
     name: '',
-    price: '',
+    price: 0,
   })
   const [planDuration, setPlanDuration] = useState<string>('')
   const [addonsSelected, setAddonsSelected] = useState<Addon[]>([])

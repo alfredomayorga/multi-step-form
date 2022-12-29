@@ -11,7 +11,7 @@ export type Addon = {
 
 export type Plan = {
   name: string
-  price: string
+  price: number
 }
 
 export type FormContextValues = {
