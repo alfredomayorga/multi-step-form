@@ -14,7 +14,8 @@ function MonthlyYearlyPicker() {
         bg-very-light-grey
         rounded-lg
         h-[48px]
-        max-w-[295px]
+        w-full
+        mt-4
       "
     >
       <div
