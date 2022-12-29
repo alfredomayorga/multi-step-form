@@ -5,7 +5,7 @@ import { Plan } from './Plan'
 type Plan = {
   id: number
   name: string
-  price: string
+  price: number
   icon: string
   color: string
 }
