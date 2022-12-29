@@ -3,6 +3,7 @@
 import Tracker from "../components/ui/tracker-component"
 import FormContextProvider from "../context/FormContext"
 import PersonalInfo from "./PersonalInfo"
+import PickAddons from "./PickAddons"
 import SelectPlan from "./SelectPlan"
 
 function ContentViewer() {
@@ -10,7 +11,8 @@ function ContentViewer() {
     <FormContextProvider>
       <Tracker />
       {/* <PersonalInfo /> */}
-     <SelectPlan /> 
+     {/*<SelectPlan /> */}
+      <PickAddons />
     </FormContextProvider>  
   )
 }
