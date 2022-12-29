@@ -20,7 +20,7 @@ export type FormContextValues = {
   totalAmount: number
   setTotalAmount: (totalAmount: number) => void
   planSelected: Plan
-  setPlanSelected: (planDuration: string) => void
+  setPlanSelected: (planDuration: Plan) => void
   planDuration: 'Monthly' | 'Yearly'
   setPlanDuration: (planDuration: string) => void
   addonsSelected: Addon[]
