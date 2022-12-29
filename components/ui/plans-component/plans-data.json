@@ -3,21 +3,21 @@
     {
       "id": 1,
       "name": "Arcade",
-      "price": "$9/month",
+      "price": 9,
       "icon": "/images/icon-arcade.svg",
       "color": "orange"
     },
     {
       "id": 2,
       "name": "Advanced",
-      "price": "$12/month",
+      "price": 12,
       "icon": "/images/icon-advanced.svg",
       "color": "pink"
     },
     {
       "id": 3,
       "name": "Pro",
-      "price": "$15/month",
+      "price": 15,
       "icon": "/images/icon-pro.svg",
       "color": "purple"
     }

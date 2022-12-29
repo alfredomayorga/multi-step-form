@@ -8,3 +8,7 @@ body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
